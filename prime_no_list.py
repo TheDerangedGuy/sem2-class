@@ -1,4 +1,4 @@
-#wap to print the prime numbers out of list given by user and using for loop
+#wap to print the prime numbers out of list given by user using for loop
 l1 = list(map(int, input("Enter numbers separated by space: ").split()))
 def is_prime(n):
     if n <= 1:
